@@ -1,0 +1,5 @@
+Blacksmith plugin permissions
+
+blacksmith.use
+    default: op
+    description: Allows players to smith by using the forges.

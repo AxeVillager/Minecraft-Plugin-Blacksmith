@@ -1,0 +1,11 @@
+name: Blacksmith
+version: 1.0
+main: com.baol.blacksmith.Main
+author: Axe_Villager
+website:
+description: Allows you to use a forge to repair certain items in Minecraft.
+
+permissions:
+  blacksmith.use:
+    default: op
+    description: Allows you to use the forges.

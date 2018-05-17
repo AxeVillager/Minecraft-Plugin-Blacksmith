@@ -1,0 +1,30 @@
+# Blacksmith Configuration File
+# Author: Axe_Villager (fedc4bf6-2f90-40eb-8bbb-277af4602cbe)
+# Website:
+# Tested on: Java 8, Spigot 1.12.2
+# Version: 1.0
+# Created (yy/mm/dd): 2018/04/20
+# Last Updated (yy/mm/dd): 2018/04/23
+
+# The item behind the fire in the forge you need
+# to right-click to start the smithing process.
+forge item: IRON_BLOCK
+
+# The command that is executed when smithing is complete.
+# The variable PLAYER_NAME is the smith's player name.
+# Leave empty ("") for no command to be executed.
+command: "say PLAYER_NAME used a forge."
+
+# The progress bar text that explains to the
+# user the item is being heated in the forge.
+heat item bar text: "Heating the item..."
+
+# The progress bar text that explains to the
+# user the item needs to be repaired (right-
+# clicked) on an anvil.
+repair item bar text: "Repair the item on an anvil..."
+
+# The progress bar text that explains to the
+# user the item needs to be cooled in a cauldron
+# with water in it.
+cool item bar text: "Cool the item in a cauldron with water..."
